@@ -4,11 +4,12 @@
 <p> Do git reflog </p>
 git reflog
 <p>Identify the commit SHA(not branch checkout SHA) that is just before the force push commit</p>
-cf42fa2... HEAD@{84}: checkout: moving to master
-73b9363... HEAD@{85}: commit: Force update master_automation.
-6a3458o... HEAD@{86}: checkout: Moving from master to master_automation
-547cc1b... HEAD@{86}: commit: Deploy to effectif.com web server.
-1dc3298... HEAD@{87}: commit: Updated the theme.
+
+<p>cf42fa2... HEAD@{84}: checkout: moving to master</p>
+<p>73b9363... HEAD@{85}: commit: Force update master_automation.</p>
+<p>6a3458o... HEAD@{86}: checkout: Moving from master to master_automation</p>
+<p>547cc1b... HEAD@{86}: commit: Deploy to effectif.com web server.</p>
+<p>1dc3298... HEAD@{87}: commit: Updated the theme.</p>
 
 Force updated commit SHA is 73b9363 which shows branch state after force push
 
