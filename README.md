@@ -11,16 +11,16 @@ git reflog
 <p>547cc1b... HEAD@{86}: commit: Deploy to effectif.com web server.</p>
 <p>1dc3298... HEAD@{87}: commit: Updated the theme.</p>
 
-Force updated commit SHA is 73b9363 which shows branch state after force push
+<p>Force updated commit SHA is 73b9363 which shows branch state after force push</p>
 
-Here the SHA is 547cc1b which indicates the normal state of branch master_automation just before force push
+<p>Here the SHA is 547cc1b which indicates the normal state of branch master_automation just before force push</p>
 
-Now perform git hard reset to the above SHA
-git reset --hard 547cc1b
+<p>Now perform git hard reset to the above SHA</p>
+<p>git reset --hard 547cc1b</p>
 
-Now force push your branch which is affected by force push to go back to the previous normal state
-git push origin force-pushed-branch -f
+<p>Now force push your branch which is affected by force push to go back to the previous normal state</p>
+<p>git push origin force-pushed-branch -f</p>
 
-Now navigate to branch in GitHub you can see the commits that you have lost
+<p>Now navigate to branch in GitHub you can see the commits that you have lost</p>
 
-Thats it..!!! Now your lost commits are back
+<p>That's it..!!! Now your lost commits are back</p>
