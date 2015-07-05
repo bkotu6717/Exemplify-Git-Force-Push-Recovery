@@ -1,4 +1,4 @@
-<h1>Recovering Lost Commits with git reflog and reset<h1>
+<h1>Recovering Lost Commits with git reflog and reset</h1>
 <p>Checkout to the branch i.e the one you have force pushed</p>
   git checkout force-pushed-branch
 <p> Do git reflog </p>
